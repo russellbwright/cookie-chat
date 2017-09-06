@@ -15,6 +15,9 @@ body {
   background: rgba(255, 255, 255, 0.86);
   padding: 5px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-container h1 {
@@ -30,4 +33,15 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.input{
+  
+
+align-self: center;
+}
+
+.search-box{
+
+align-self: center;
 }
